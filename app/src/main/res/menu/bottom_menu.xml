@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/bottom_home"
+        android:title="Home"
+        android:iconTint="@color/white"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/bottom_profile"
+        android:title="Video"
+        android:iconTint="@color/white"
+        android:icon="@drawable/playbutton"/>
+
+    <item
+        android:id="@+id/tournament"
+        android:title="Tournaments"
+        android:iconTint="@color/white"
+        android:icon="@drawable/tournament"/>
+
+
+    <item
+        android:id="@+id/bottom_blog"
+        android:title="Create Blog"
+        android:iconTint="@color/white"
+        android:icon="@drawable/writing"/>
+
+    <item
+        android:id="@+id/bottom_video"
+        android:title="Video"
+        android:iconTint="@color/white"
+        android:icon="@drawable/zoom"/>
+
+</menu>

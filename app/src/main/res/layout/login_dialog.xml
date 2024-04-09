@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/cardview_light_background">
+
+
+    <TextView
+        android:id="@+id/nbjvghcgfxdfx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Admin Control"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/njbhvgcgfx"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/nbjvghcgfxdfx"
+        android:layout_above="@+id/ssdsdsdsd"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/ssdsdsdsd"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:background="@drawable/bt_bg2"
+        android:hint="Enter admin password.."
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#6A6A6A"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/okbhvhvhaybtn"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0288D1"
+        android:text="Submit"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamRoomActivity">
+
+    <RelativeLayout
+        android:id="@+id/njbjvhyvcycycyc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_test">
+
+        <ImageView
+            android:id="@+id/back_teamroom"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_arrow_back_24dp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/mknjbjvhvhcgc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/back_teamroom"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/room_team_pic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#000"
+                app:civ_border_width="0.01dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/room_team_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Team name"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/model_team_sport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/material_motion_duration_long_1"
+                    android:text="tap here for team info"
+                    android:textColor="@color/text_color" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chat_bg"
+        android:layout_below="@+id/njbjvhyvcycycyc">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_room"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/mkbnjbhvyhcyyc" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mkbnjbhvyhcyyc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="11dp"
+            android:layout_toStartOf="@+id/send_msg_btn"
+            android:elevation="10dp"
+            app:cardCornerRadius="25dp">
+
+            <EditText
+                android:id="@+id/edit_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:hint="Message"
+                android:inputType="textMultiLine"
+                android:maxLines="5"
+                android:textColor="@color/text_color"
+                android:paddingStart="25dp"
+                android:paddingEnd="20dp"
+                android:paddingLeft="25dp"
+                android:paddingTop="2.5dp"
+                android:paddingBottom="2.5dp"
+                tools:ignore="RtlSymmetry" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/send_msg_btn"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="11dp"
+            android:padding="12dp"
+            android:background="@drawable/round_black"
+            android:src="@drawable/ic_baseline_send_24" />
+
+
+    </RelativeLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_room"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:title="Share app" />
+        <item
+            android:id="@+id/about_us"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/rate_us"
+            android:title="Rate Us" />
+
+        <item
+            android:id="@+id/contact"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/term"
+            android:title="Term &amp; Conditions" />
+
+        <item
+            android:id="@+id/privacy_policy"
+            android:title="Privacy Policy" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Social Media">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/instagram"
+                    android:icon="@drawable/instagram2"
+                    android:title="Instagram"/>
+                <item android:id="@+id/facebook"
+                    android:icon="@drawable/facebook2"
+                    android:title="Facebook"/>
+                <item android:id="@+id/youtube"
+                    android:icon="@drawable/youtube2"
+                    android:title="YouTube"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

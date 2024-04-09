@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp">
+
+
+    <TextView
+        android:id="@+id/xsxmsksjbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:layout_below="@+id/xsxmsksjbs"
+        android:layout_above="@+id/send_otp_btn"
+        android:id="@+id/sksnsndsdsbd"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Please enter your phone number"
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-medium"/>
+
+            <EditText
+                android:id="@+id/input_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_bg2"
+                android:hint="10 digits.."
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:maxLength="10"
+                android:paddingTop="12dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="12dp"
+                android:textColor="#6A6A6A"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/send_otp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Send otp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

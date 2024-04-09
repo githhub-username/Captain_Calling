@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MyTeamActivity"
+    android:backgroundTint="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/bjghfyftdtsts"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/background">
+
+
+        <ImageView
+            android:id="@+id/back_myteams"
+            android:layout_width="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_24dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="My Teams"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/xxccccsdsfsfdwwf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Empty"/>
+    <ProgressBar
+        android:id="@+id/progress_myteam"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_myteam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bjghfyftdtsts" />
+
+</RelativeLayout>

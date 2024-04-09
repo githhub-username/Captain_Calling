@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_pic_player"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/mkbjhvchgcgtxtx"
+        android:layout_toEndOf="@+id/team_pic_player"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/player_name_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="Team name"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phone_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            android:visibility="gone"
+            android:textColor="@color/text_color"
+            android:text="" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mkbjhvchgcgtxtx"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/delete_player"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/round_black"
+            android:src="@drawable/ic_baseline_delete_24"/>
+
+        <ImageView
+            android:id="@+id/captain_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/letter_c"/>
+
+        <ImageView
+            android:id="@+id/call_player"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:background="@drawable/round_green"
+            android:src="@drawable/ic_baseline_phone_24"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

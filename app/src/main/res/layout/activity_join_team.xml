@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinTeamActivity"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/njbjnhjhvhchcgxfx"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+
+        <ImageView
+            android:id="@+id/back_join_team"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Join Team"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/xxccccdwwf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Empty"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_join"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/explore_btn"
+        android:layout_below="@+id/njbjnhjhvhchcgxfx" />
+
+    <ProgressBar
+        android:id="@+id/mkbjvdtdstdtchc"
+        android:layout_width="25dp"
+        android:visibility="invisible"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/explore_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Explore Teams"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

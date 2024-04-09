@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@color/cardview_light_background">
+
+
+    <TextView
+        android:id="@+id/nbjvghcgfxdfx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Add Details"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/nbjvghcgfxdfx"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_above="@+id/okbhvhvbjvhaybtn">
+
+        <EditText
+            android:id="@+id/sdsscshjujuvfsfsf"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt_bg2"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter city of match.."
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPostalAddress"
+            android:padding="10dp"
+            android:textColor="#6A6A6A"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/ssdsdnkbbsdsd"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bt_bg2"
+            android:gravity="center"
+            android:hint="Enter area of match.."
+            android:inputType="textPostalAddress"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:textColor="#6A6A6A"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@+id/choose_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bt_bg2">
+
+            <TextView
+                android:id="@+id/dob_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/njbvhtdts"
+                android:gravity="center_vertical|center"
+                android:paddingLeft="10dp"
+                android:paddingTop="12dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="12dp"
+                android:text="Choose date"
+                android:textColor="#6A6A6A"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/njbvhtdts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_baseline_calendar_today_24" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/choose_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bt_bg2">
+
+            <TextView
+                android:id="@+id/dob_vieddw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/njbvhtdfdts"
+                android:gravity="center_vertical|center"
+                android:paddingLeft="10dp"
+                android:paddingTop="12dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="12dp"
+                android:text="Choose time"
+                android:textColor="#6A6A6A"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/njbvhtdfdts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_baseline_access_time_24" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/okbhvhvbjvhaybtn"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#0288D1"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" />
+
+</RelativeLayout>

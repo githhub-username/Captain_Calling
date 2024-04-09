@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".AddMatchResultActivity">
+
+    <RelativeLayout
+        android:id="@+id/njbjnhjhvhchcgxfx"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+
+        <ImageView
+            android:id="@+id/back_add_match"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_24dp" />
+
+        <TextView
+            android:id="@+id/xzzjxbjxbjaxajvx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add result for team history"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nxnzbzcbzcb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Empty"
+        android:textColor="@color/text_color"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_result"
+        android:layout_below="@+id/njbjnhjhvhchcgxfx" />
+
+    <ProgressBar
+        android:id="@+id/bjvhcgcxgtxtzx"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Add New"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

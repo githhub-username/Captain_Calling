@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:id="@+id/bhvhgcgcfxgcnnb"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="10dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/blog_pic_yt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#000" />
+
+        <LinearLayout
+            android:id="@+id/mkbjvsxsxsxhchchchc"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/blog_title_yt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/blog_status_yt"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Title"
+                    android:textColor="#191919"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/blog_status_yt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Status"
+                    android:textAllCaps="true"
+                    android:textColor="#191919"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/blog_des_yt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Des"
+                android:textColor="@color/text_color"
+                android:inputType="textMultiLine"
+                android:maxLines="2"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

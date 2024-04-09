@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllBlogActivity"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/njbjnhjhvhchcgxfx"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+
+        <ImageView
+            android:id="@+id/back_all_vlog"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_arrow_back_24dp" />
+
+        <TextView
+            android:id="@+id/allBlogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="All Blogs"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/cxmckcnbccb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Empty"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_blog_my"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/njbjnhjhvhchcgxfx"
+        android:layout_marginTop="60dp"/>
+
+    <ProgressBar
+        android:id="@+id/mkbjvdtdstdtchcnjb"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/njbjnhjhvhchcgxfx"
+        android:layout_marginTop="-1dp"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/njbjnhjhvhchcgxfx">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/rounded_background"
+                android:text="Home" />
+
+            <Button
+                android:id="@+id/cricket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/rounded_background"
+                android:text="Cricket" />
+
+            <Button
+                android:id="@+id/football"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/rounded_background"
+                android:text="Football" />
+
+            <Button
+                android:id="@+id/basketball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/rounded_background"
+                android:text="Basketball" />
+
+            <Button
+                android:id="@+id/volleyball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/rounded_background"
+                android:text="Volleyball" />
+
+            <Button
+                android:id="@+id/kabaddi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/rounded_background"
+                android:text="Kabaddi" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

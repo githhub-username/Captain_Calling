@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TournamentTeamsFragment">
+
+    <LinearLayout
+        android:id="@+id/see_join_requests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bt_bg2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Join Requests"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=">>>"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="end"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tournament_teams_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/see_join_requests"/>
+
+    <TextView
+        android:id="@+id/no_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Teams Participated in the Tournament"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

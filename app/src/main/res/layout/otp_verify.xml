@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/xsxmskxssjbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Enter OTP"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_below="@+id/xsxmskxssjbs"
+        android:layout_above="@+id/verify_otp_btn"
+        android:id="@+id/sksnsndsdsbd"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_hint_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-medium"/>
+
+            <com.chaos.view.PinView
+                android:id="@+id/otp_input"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                app:itemCount="6"
+                app:itemHeight="35dp"
+                app:itemWidth="35dp"
+                app:itemRadius="5dp"
+                app:lineColor="@android:color/darker_gray"
+                app:viewType="rectangle" />
+
+            <ProgressBar
+                android:id="@+id/progress_otp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/resend_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Please wait.."
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:id="@+id/change_number_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Few seconds"
+                android:textColor="@color/text_color"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-medium"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/verify_otp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Verify otp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

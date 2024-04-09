@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:id="@+id/blog_layout"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/card_background"
+    app:cardCornerRadius="10dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/blog_pic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#000" />
+
+        <LinearLayout
+            android:id="@+id/mkbjvsxsxsxhchchchc"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/blog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:singleLine="true"
+                    android:text="Title"
+                    android:textColor="@color/card_foreground"
+                    android:textSize="16sp" />
+
+                <!--<TextView
+                    android:id="@+id/blog_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Status"
+                    android:textAllCaps="true"
+                    android:textColor="@color/card_foreground"
+                    android:textSize="16sp" />-->
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/blog_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:inputType="textMultiLine"
+                android:textStyle="italic"
+                android:maxLines="2"
+                android:minWidth="48dp"
+                android:text="Des"
+                android:textColor="@color/desc_text"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/blog_profile_pic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/blog_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/blog_profile_pic"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Name"
+                    android:textColor="@color/card_foreground"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/blog_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toEndOf="@+id/blog_name"
+                    android:gravity="right"
+                    android:textColor="@color/card_foreground"
+                    android:text="Name"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

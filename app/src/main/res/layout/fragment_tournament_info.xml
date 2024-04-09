@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TournamentInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/edit_tournament_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="16sp"
+            android:background="@drawable/bt_bg2"
+            android:textColor="@color/black"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:padding="8dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/edit_tournament_banner"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team Name"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/edit_tournament_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_bg2"
+                android:text="Team Name"
+                android:enabled="false"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/editTournamentSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="8dp"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Tournament"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+
+            <EditText
+                android:id="@+id/edit_tournament_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:enabled="false"
+                android:textSize="18sp"
+                android:background="@drawable/bt_bg2"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teams"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/edit_tournament_teams"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number of Teams"
+                android:enabled="false"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:background="@drawable/bt_bg2"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/edit_tournament_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:enabled="false"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:background="@drawable/bt_bg2"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="District"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/edit_tournament_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="District"
+                android:enabled="false"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:background="@drawable/bt_bg2"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+            <EditText
+                android:id="@+id/edit_tournament_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:enabled="false"
+                android:textSize="18sp"
+                android:background="@drawable/bt_bg2"
+                android:textColor="@color/black"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/update_tournament_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

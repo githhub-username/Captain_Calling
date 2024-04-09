@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".JoinTournamentActivity">
+
+    <RelativeLayout
+        android:id="@+id/join_tournament_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back_join_tournament"
+            android:layout_width="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Join Tournament"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/join_tournament_app_bar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Team Name*"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="12dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp"
+            android:textColor="#6A6A6A"
+            android:textSize="15sp"
+            android:hint="Enter Your Team Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/bt_bg2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/join_tournament_app_bar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Team Name*"/>
+
+        <EditText
+            android:id="@+id/tournament_join_team_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="12dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp"
+            android:textColor="#6A6A6A"
+            android:textSize="15sp"
+            android:hint="Enter Your Team Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/bt_bg2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Name of Captain*"/>
+        <EditText
+            android:id="@+id/tournament_join_team_captain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="12dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp"
+            android:textColor="#6A6A6A"
+            android:textSize="15sp"
+            android:hint="Enter Team's Captain's Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/bt_bg2"/>
+
+        <Button
+            android:id="@+id/send_join_tournament_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Join Request"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

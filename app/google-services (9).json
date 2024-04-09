@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "134697102018",
+    "firebase_url": "https://captain-calling-default-rtdb.firebaseio.com",
+    "project_id": "captain-calling",
+    "storage_bucket": "captain-calling.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134697102018:android:08e4f53ad0df5285b7e95b",
+        "android_client_info": {
+          "package_name": "com.kartavya.captaincalling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134697102018-av5fre27vcq0rqpr2qmoal1fh1q6b0mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "7020b7ba6227f9322f7fdadf6c0af432d086b3ae"
+          }
+        },
+        {
+          "client_id": "134697102018-d7geb1j90st65diteg4hhtu2uitd7f91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "bf3af3ae70ecd54f99b7b2e2491fec2299c82dac"
+          }
+        },
+        {
+          "client_id": "134697102018-iermnsibvmsja8hpgiact9ue02ursuvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "2b62ee13d566c24fe3a56c9a3564fac3cddf7465"
+          }
+        },
+        {
+          "client_id": "134697102018-ivk2s0vdsde57utone2586379bqudfdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "e4057c635f06bfbd47fc853f2c5e76ac4798cb95"
+          }
+        },
+        {
+          "client_id": "134697102018-kakak53gpkfjle2lu36qj0dkairbqeep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "93fdccfa821a5833ac47d2acad7f8329eebee44a"
+          }
+        },
+        {
+          "client_id": "134697102018-okl6rnpmt0itub1d9d4pf90vtfc4eqsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "1b34a8146c0ab691e2e936eb692d118a45a4704a"
+          }
+        },
+        {
+          "client_id": "134697102018-pi3b29ud6p447loip5ufs4kbmgk2g8bf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "b2887c28565a02030827c08518f5903ef7cb4a5f"
+          }
+        },
+        {
+          "client_id": "134697102018-slpcqua2l7us3k6qms35qunp117hvv59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.captaincalling",
+            "certificate_hash": "04636cfd99c6adc9c5ce1f4ef76ea82d82f3a5b7"
+          }
+        },
+        {
+          "client_id": "134697102018-j1nef1kubisg3ui5q89h3u57q99a962g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI8DHtJ5vzsKv3wz4toyW380fvH-zwSCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134697102018-4kki57u27ekev1no8m8itj47p4ibnu84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

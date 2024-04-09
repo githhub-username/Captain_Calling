@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:id="@+id/bhvhgcgcfxgcnnb"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="10dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/mkbjvhchchchc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/team_pic_add"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/user"
+                    app:civ_border_color="#000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toStartOf="@+id/leve_add"
+                    android:layout_toEndOf="@+id/team_pic_add"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/player_name_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Team name"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/phone_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:layout_weight="@integer/material_motion_duration_long_1"
+                        android:text="Sport" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mkbjhvchgcgtxtx"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="10dp"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:id="@+id/delete_player"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:visibility="gone"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/round_black"
+                        android:src="@drawable/ic_baseline_delete_24"/>
+
+                    <ImageView
+                        android:id="@+id/captain_logo"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:visibility="gone"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/letter_c"/>
+
+                    <ImageView
+                        android:id="@+id/call_player"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:visibility="gone"
+                        android:background="@drawable/round_green"
+                        android:src="@drawable/ic_baseline_phone_24"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/leve_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_add"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.00001dp"
+                    android:background="#E1E1E1"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Primary Sport"/>
+                    <TextView
+                        android:id="@+id/primary_add"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.00001dp"
+                    android:background="#E1E1E1"/>
+
+                <LinearLayout
+                    android:id="@+id/level_lyt"
+                    android:layout_margin="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Level"/>
+                    <TextView
+                        android:id="@+id/level_second"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.00001dp"
+                    android:background="#E1E1E1"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Secondary Sport"/>
+                    <TextView
+                        android:id="@+id/secondary_add"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.00001dp"
+                    android:background="#E1E1E1"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address"/>
+                    <TextView
+                        android:id="@+id/address_add"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.00001dp"
+                    android:background="#E1E1E1"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="District"/>
+                    <TextView
+                        android:id="@+id/district_add"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.00001dp"
+                    android:background="#E1E1E1"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="State"/>
+                    <TextView
+                        android:id="@+id/state_add"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.00001dp"
+                    android:background="#E1E1E1"/>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Expertise"/>
+                    <TextView
+                        android:id="@+id/expert_input"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/cancel_btn"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:gravity="center"
+                        android:background="#D32F2F"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textSize="15sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Reject"/>
+
+                    <TextView
+                        android:id="@+id/add_btn"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textSize="15sp"
+                        android:textColor="#FFFFFF"
+                        android:text="Add"/>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

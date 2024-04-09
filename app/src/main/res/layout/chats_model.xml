@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/date_time_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:text=""
+        android:textColor="@color/white"
+        tools:ignore="RtlHardcoded" />
+    <TextView
+        android:id="@+id/date_time_chat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:text=""
+        android:textColor="@color/white"
+        tools:ignore="RtlHardcoded" />
+
+
+    <LinearLayout
+        android:id="@+id/incoming_lyt"
+        android:orientation="vertical"
+        android:background="@drawable/chats_incoming"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/date_time_chat"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name_in"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="13.5sp"
+            />
+
+        <TextView
+            android:id="@+id/msg_in"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:paddingStart="20dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/text_color"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="13.5sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/outgoing_lyt"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@drawable/chats_outgoing"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/date_time_chat2"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name_out"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="13.5sp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/msg_out"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20dp"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="13.5sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

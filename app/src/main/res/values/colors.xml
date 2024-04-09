@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_color">#BFE4F8</color>
+    <color name="text_color">#777777</color>
+    <color name="bg_test">#41C482</color>
+    <color name="bg_tests">#16931A</color>
+    <color name="blush">#DE5D83</color>
+    <color name="salmon">#FF9999</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="palesilver">#CBC1B5</color>
+
+
+<!--    Color resource for testing with UI-->
+
+<!--    <color name="Muddy_Appbar">#283618</color>-->
+<!--    <color name="Muddy_Appbar_text">#606c38</color>-->
+<!--    <color name="background">#fefae0</color>-->
+<!--    <color name="card_background">#dda15e</color>-->
+<!--    <color name="card_foreground">#bc6c25</color>-->
+<!--    <color name="card_text">#f4e285</color>-->
+
+<!--    <color name="Muddy_Appbar">#132a13</color>-->
+<!--    <color name="Muddy_Appbar_text">#ecf39e</color>-->
+<!--    <color name="background">#cfe1b9</color>-->
+<!--    <color name="card_background">#90a955</color>-->
+<!--    <color name="card_foreground">#4f772d</color>-->
+<!--    <color name="card_text">#f4e285</color>-->
+
+    <color name="Muddy_Appbar">#af9f85</color>
+    <color name="Muddy_Appbar_text">#000000</color>
+    <color name="background">#af9f85</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_foreground">#000000</color>
+    <color name="desc_text">#a3a1a4</color>
+    <color name="transparent">#00000000</color>
+
+<!--    <color name="Muddy_Appbar">#282b28</color>-->
+<!--    <color name="Muddy_Appbar_text">#83bca9</color>-->
+<!--    <color name="background">#83bca9</color>-->
+<!--    <color name="card_background">#d36135</color>-->
+<!--    <color name="card_foreground">#a24936</color>-->
+<!--    <color name="card_text">#f4e285</color>-->
+
+
+</resources>
